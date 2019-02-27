@@ -15,10 +15,10 @@ body, html {
 .bgimg-1 {
     background-position: center;
     background-size: cover;
-    background-image: url("images/studio.png");
+    background-image: url("./assets/images/LorisBioPic.jpg");
     min-height: 100%;
 }
-.instructors {
+.projects {
     width: 100%;
     height: 560px;
 }
