@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<head>
+    <title>Lori Salazar: Web Developer/Product Manager</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+
+</head>
+<body data-aos-easing="ease" data-aos-duration="400" data-aos-delay="0">
+    <!-- Navbar (sit on top) -->
+    <div class="w3-top">
+      <div class="w3-bar w3-white w3-card" id="myNavbar">
+        <a href="#home" class="w3-bar-item w3-button w3-wide">Lori E Salazar</a>
+        <!-- Right-sided navbar links -->
+        <div class="w3-right w3-hide-small">
+          <a href="#about" class="w3-bar-item w3-button">ABOUT ME</a>
+          <a href="#portfolio" class="w3-bar-item w3-button">PORTFOLIO</a>
+          <a href="#contact" class="w3-bar-item w3-button"> CONTACT</a>
+        </div>
+        <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+  
+        <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+    </div>
+  
+    <!-- Sidebar on small screens when clicking the menu icon -->
+    <nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+      <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
+      <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT ME</a>
+      <a href="#portfolio" onclick="w3_close()" class="w3-bar-item w3-button">PORTFOLIO</a>
+      <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
+    </nav>
+  
+    <!-- Header with full-height image -->
+    <header data-aos="fade-in" class="bgimg-1 w3-display-container w3-grayscale-min aos-init aos-animate" id="home">
+      <div class="w3-display w3-text-white photo-text aos-init aos-animate" data-aos="zoom-in">
+        <span class="w3-jumbo">Lori Elizabeth Salazar</span><br>
+        <span class="w3-large">Passionate about customer excitement from product innovation!</span>
+      </div>
+    </header>
+  
+    <!-- About Section -->
+    <div class="w3-container" style="padding:128px 16px" id="about">
+      <h2 class="w3-center">ABOUT ME</h2>
+      <p class="w3-center w3-content w3-large w3-margin-bottom aos-init" data-aos="zoom-in">Full Stack Web Developer with a software development, product management and business background ready to tackle new challenges. Excellent communication of technical product ideas and benefits to non-techies and techies, adapting presentations appropriately to the audience.  Meets commitments achieving goals via effective collaboration and adaptability on the job filling in where needed. Received a Full Stack Web Development certificate from Univeristy of California, Irvine, a MBA from Webster University and a Computer Science degree from the Ohio State University, College of Engineering.</p>
+      
+      <div class="w3-col s12 l6 w3-padding-16 w3-container w3-margin-top">
+      <h3 class="w3-center">Eileen Kim</h3>
+      <p class="w3-center w3-content w3-large aos-init" data-aos="zoom-in">Eileen Kim is a dancer, instructor, and choreographer based in Los
+        Angeles, CA. She found her passion for dance when she first began competing in 2012 with 909HHDT, a team based in
+        UC Riverside, and since then has continued to share her craft by teaching locally and internationally. Her
+        experience includes performing with and choreographing for GRV dance team at world famous competitions, teaching
+        at studios such as Snowglobe Perspective and Kinjaz Dojo, and choreographing for various artists. She believes
+        that it is possible to achieve anything when you put your heart into it, and continues to strive to grow and to
+        inspire people through her craft. </p>
+      </div>
+      <div class="w3-col s12 l6 w3-padding-16 w3-container w3-margin-top">
+      <h3 class="w3-center">Diny Kim</h3>
+      <p class="w3-center w3-content w3-large aos-init" data-aos="zoom-in">Diny Kim is a professional dancer, teacher, and choreographer based in San
+        Diego, California. Originally from Los Angeles, she moved to San Diego in 2010, and is currently dancing with the
+        Super Galactic Beat Manipulators, founded by Kevin Brewer of the Jabbawockeez. She enjoys traveling around the
+        country to teach, and has been to New York to teach at Sandbox NYC. Diny has danced for several artists in the
+        Korean entertainment industry, most notably Jun Curry Ahn. She is excited to share her love and knowledge of
+        dance to Urban LA!</p>
+      </div>
+    </div>
+  
+    <!-- Team Section -->
+    <div class="w3-container w3-light-grey" style="padding:128px 16px" id="portfolio">
+      <h3 class="w3-center">Lori's Portfolio</h3>
+      <div class="w3-row-padding w3-grayscale" style="margin-top:64px">
+        <div class="w3-container cardCrop">
+          <div class="w3-col l3 m6 w3-margin-bottom eileen photos">
+            <div class="w3-card card">
+              <img src="assests/images/eileen.png" data-aos="zoom-in" class="instructors aos-init" alt="Eileen" style="width:100%">
+              <div class="w3-container instructorText">
+                <h3>Eileen Kim</h3>
+                <p class="w3-opacity">Hip-hop Instructor</p>
+                <p>
+                  <a href="https://www.facebook.com/eileeeenkim" target="_blank"><i class="fa fa-facebook-official"></i></a>
+                  <a href="https://www.youtube.com/channel/UCI5Mj1lU-Ed0pzDQS8fhSpQ" target="_blank"><i class="fa fa-youtube-play"></i></a>
+                  <a href="https://www.instagram.com/eileeeenkim/"><i class="fa fa-instagram" target="_blank"></i></a>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="w3-col l3 m6 w3-margin-bottom diny photos">
+            <div class="w3-card card">
+              <img src="assests/images/diny-headshot1.png" data-aos="zoom-in" class="instructors aos-init" alt="Diny" style="width:100%">
+              <div class="w3-container instructorText">
+                <h3>Diny Kim</h3>
+                <p class="w3-opacity">Hip-hop Instructor</p>
+                <p>
+                  <a href="https://www.facebook.com/dinykim" target="_blank"><i class="fa fa-facebook-official"></i></a>
+                  <a href="https://www.youtube.com/watch?v=nBHdoqNfdvQ" target="_blank"><i class="fa fa-youtube-play"></i></a>
+                  <a href="https://www.instagram.com/dinykim/"><i class="fa fa-instagram" target="_blank"></i></a>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="w3-col l3 m6 w3-margin-bottom taryn photos">
+            <div class="w3-card card">
+              <img src="assests/images/Taryn.png" data-aos="zoom-in" class="instructors aos-init" alt="Ariel" style="width:100%">
+              <div class="w3-container instructorText">
+                <h3>Taryn Cheng</h3>
+                <p class="w3-opacity">Hip-hop Instructor</p>
+                <p>
+                  <a href="https://www.facebook.com/profile.php?id=100002370526789" target="_blank"><i class="fa fa-facebook-official"></i></a>
+                  <a href="https://www.youtube.com/user/tarnosterrah" target="_blank"><i class="fa fa-youtube-play"></i></a>
+                  <a href="https://www.instagram.com/taryncheng/" target="_blank"><i class="fa fa-instagram"></i></a>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="w3-col l3 m6 w3-margin-bottom larry photos">
+            <div class="w3-card card">
+              <img src="assests/images/larry.png" data-aos="zoom-in" class="instructors aos-init" alt="Larry" style="width:100%">
+              <div class="w3-container instructorText">
+                <h3>Larry Li</h3>
+                <p class="w3-opacity">Hip-hop Instructor</p>
+                <p>
+                  <a href="https://www.facebook.com/larry.li.5" target="_blank"><i class="fa fa-facebook-official"></i></a>
+                  <a href="https://www.youtube.com/channel/UCThmksduB5eBCCH2NY9d4Bg" target="_blank"><i class="fa fa-youtube-play"></i></a>
+                  <a href="https://www.instagram.com/rarryri/" target="_blank"><i class="fa fa-instagram"></i></a></p>
+              </div>
+            </div>
+          </div>
+          <div class="w3-col l3 m6 w3-margin-bottom cassie photos">
+            <div class="w3-card card">
+              <img src="assests/images/Cassie.png" data-aos="zoom-in" class="instructors aos-init" alt="Cassie" style="width:100%">
+              <div class="w3-container instructorText">
+                <h3>Cassandra Garcia</h3>
+                <p class="w3-opacity">Hip-hop Instructor</p>
+                <p>
+                  <a href="https://www.facebook.com/cassie.garcia.31" target="_blank"><i class="fa fa-facebook-official"></i></a>
+                  <a href="https://www.youtube.com/watch?v=c4TDkj2oNTs&amp;feature=youtu.be" target="_blank"><i class="fa fa-youtube-play"></i></a>
+                  <a href="https://www.instagram.com/ox_eissac/"><i class="fa fa-instagram" target="_blank"></i></a>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="w3-col l3 m6 w3-margin-bottom bean photos">
+            <div class="w3-card card">
+              <img src="assests/images/Bean.png" data-aos="zoom-in" class="instructors aos-init" alt="Bean" style="width:100%">
+              <div class="w3-container instructorText">
+                <h3>Hector "Bean" Flores</h3>
+                <p class="w3-opacity">Hip-hop Instructor</p>
+                <p>
+                  <a href="https://www.facebook.com/bean.funkdation" target="_blank"><i class="fa fa-facebook-official"></i></a>
+                  <a href="https://www.youtube.com/watch?v=1U9DWliPkZE&amp;feature=youtu.be" target="_blank"><i class="fa fa-youtube-play"></i></a>
+                  <a href="https://www.instagram.com/beanfdc/"><i class="fa fa-instagram" target="_blank"></i></a>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="w3-col l3 m6 w3-margin-bottom ednino photos">
+            <div class="w3-card card">
+              <img src="assests/images/Ednino.png" data-aos="zoom-in" class="instructors aos-init" alt="Ednino" style="width:100%">
+              <div class="w3-container instructorText">
+                <h3>Edniño Malamanig</h3>
+                <p class="w3-opacity">Hip-hop Instructor</p>
+                <p>
+                  <a href="https://www.facebook.com/edneenyo" target="_blank"><i class="fa fa-facebook-official"></i></a>
+                  <a href="https://www.youtube.com/watch?v=Tr-LodYwnkE" target="_blank"><i class="fa fa-youtube-play"></i></a>
+                  <a href="https://www.instagram.com/neeno.dm/" target="_blank"><i class="fa fa-instagram"></i></a>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="w3-col l3 m6 w3-margin-bottom danyel photos">
+            <div class="w3-card card">
+              <img src="assests/images/Danyel.png" data-aos="zoom-in" class="instructors aos-init" alt="Danyel" style="width:100%">
+              <div class="w3-container instructorText">
+                <h3>Danyel Moulton</h3>
+                <p class="w3-opacity">Hip-hop Instructor</p>
+                <p>
+                  <a href="https://www.facebook.com/danyel.moulton" target="_blank"><i class="fa fa-facebook-official"></i></a>
+                  <a href="https://www.youtube.com/channel/UC0rbKoUB-XKt8eupwiEEjog/videos" target="_blank"><i class="fa fa-youtube-play"></i></a>
+                  <a href="https://www.instagram.com/themiekodm6117/"><i class="fa fa-instagram" target="_blank"></i></a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <!-- Pricing Section -->
+    <div class="w3-container w3-center w3-dark-grey pricing" style="padding:128px 16px" id="contact">
+      <h3>CONTACT</h3>
+      <p class="w3-large">Please supply your information if you would like me to contact you.</p>
+      <div class="w3-row-padding" style="margin-top:64px">
+        <div class="w3-third w3-section aos-init" data-aos="zoom-in">
+          <ul class="w3-ul w3-white w3-hover-shadow">
+            <li class="w3-black w3-xlarge w3-padding-32">Single Class Drop-in</li>
+            <li class="w3-padding-24 singleClass">Take ANY class; valid up to one full year from original date of
+              purchase.</li>
+            <h2 class="w3-wide">$ 15</h2>
+            <span class="w3-opacity">per class</span>
+            
+          </ul>
+        </div>
+        <div class="w3-third w3-section aos-init" data-aos="zoom-in">
+          <ul class="w3-ul w3-white w3-hover-shadow">
+            <li class="w3-red w3-xlarge w3-padding-48">1 Month Package</li>
+            <li class="w3-padding-16">Really?! UNLIMITED? Take as many classes as you want... try to beat the record of
+              eighty-two classes in one month and your classes can cost up to four dollars.</li>
+            <h2 class="w3-wide">$ 180</h2>
+            <span class="w3-opacity">per month</span>
+            
+          </ul>
+        </div>
+        <div class="w3-third w3-section aos-init" data-aos="zoom-in">
+          <ul class="w3-ul w3-white w3-hover-shadow">
+            <li class="w3-black w3-xlarge w3-padding-32">10 Class Card</li>
+            <li class="w3-padding-16">Thirteen dollars per class when purchased. Now, what are you going to do with the
+              twenty dollar savings you just made?! Maybe purchase another class... the choice is yours.</li>
+            <h2 class="w3-wide">$ 130</h2>
+            <span class="w3-opacity">per month</span>
+            
+          </ul>
+        </div>
+      </div>
+    </div>
+  
+    <!-- Contact Section -->
+    <div class="w3-container w3-row" style="padding:128px 16px" id="contact">
+      <h3 class="w3-center">CONTACT</h3>
+      <br>
+      <div class="w3-center w3-content w3-row aos-init" data-aos="zoom-in">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1340.3166607688051!2d-118.30843391670741!3d34.069108969317476!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2b8990f459141%3A0x427ebdb58b217a0f!2s266+S+Oxford+Ave%2C+Los+Angeles%2C+CA+90004!5e0!3m2!1sen!2sus!4v1549046031507" width="100%" height="360px" frameborder="1" style="border:0" allowfullscreen=""></iframe>
+      </div>
+        <div class="w3-center w3-content w3-row aos-init" data-aos="zoom-in">
+          <p class="w3-large contactinfo">
+            Address: 266 S. Oxford Ave Los Angeles, CA 90004
+            <br>Email: urbanlaktown@gmail.com
+            <br><a href="https://www.instagram.com/urbanlastudio/"><i class="fa fa-instagram w3-hover-opacity"></i></a>
+            @urbanlastudio
+            <br><a href="https://www.facebook.com/urbanlastudio/"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+            www.facebook.com/urbanlastudio
+            <br>Phone: (213) 503-9911</p>
+        </div>
+        <br>
+        
+        </div>
+        <div class="w3-center w3-padding-64 aos-init" data-aos="zoom-in">
+            <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+      </div>
+    
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+      <footer>
+        &copy; Copyright 2019 Lori Salazar
+   </footer>
+  </body>
+</html>
