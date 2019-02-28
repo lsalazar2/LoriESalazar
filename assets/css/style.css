@@ -1,5 +1,5 @@
 h1,h2,h3,h4,h5,h6 {
-    font-family: 'Permanent Marker', cursive;
+    font-family: cursive;
 }
 .photo-text {
     font-family: 'Permanent Marker', cursive;
@@ -18,6 +18,16 @@ body, html {
     background-image: url("./assets/images/LorisBioPic.jpg");
     min-height: 100%;
 }
+.loris-image
+{ 
+    width:200px;
+    height:200px;  
+    float:left;
+    margin-top: 10px; 
+    margin-bottom: 10px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
 .projects {
     width: 100%;
     height: 560px;
@@ -32,7 +42,7 @@ body, html {
     margin: 4px;
     box-shadow: 0px 0px;
 }
-.instructorText {
+.projectText {
     text-align: center;
 }
 
