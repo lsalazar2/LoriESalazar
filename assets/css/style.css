@@ -10,14 +10,19 @@ body, html {
     height: 100%;
     line-height: 1.8;
     font-family: 'Roboto Slab', serif;
-    background-color: lightblue;
+    background-color: rgb(150, 130, 238);
 }
 /* Full height image header */
+img {
+    opacity: 0.5;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+  }
+
 .bgimg-1 {
     background-position: center;
     background-size: cover;
-    background-image: url("./assets/images/");
-    min-height: 100%;
+    background-image: url("../images/computer-700x437.jpeg"); 
+    min-height: 50%;
 }
 .loris-image
 { 
