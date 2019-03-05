@@ -12,6 +12,9 @@ body, html {
     font-family: 'Roboto Slab', serif;
     background-color: rgb(150, 130, 238);
 }
+#portfolio {
+    background-color: rgb(130, 238, 238);
+}
 /* Full height image header */
 img {
     opacity: 0.5;
@@ -54,3 +57,48 @@ img {
     {
     width: auto;
     }
+
+    .social {
+        width: 62px;
+        height: 62px;
+        margin-top: 8px;
+        margin-right: 5px;
+        background: #ebebee;
+    }
+    
+    .social:last-child {
+        margin-right: 0;
+    }
+    /*contact section*/
+#contact-form ul {
+    margin-bottom: 20px;
+} 
+#contact-form li {
+    margin-bottom: 10px;
+}
+
+label,
+input[type=text],
+input[type=email],
+textarea{
+    display: block;
+    width:100%;
+}
+
+input[type=text],
+input[type=email],
+textarea {
+    height: 35px;
+    border: 1px solid #ddd;
+    padding:0 10px;
+    font-size: 14px;
+}
+
+input[type=submit] {
+    background: #4aaaa5;
+    border: 0 none;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 30px;
+    cursor: pointer;
+}
